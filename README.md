@@ -16,6 +16,10 @@ Using multiple KMP library modules to add them as dependencies
 - `refapp` - Android app
     - uses `library:library-multi:1.0.0` dependency
 
+## Steps to run `refapp`
+- call `./gradlew :library-multi:publishAndroidReleasePublicationToMavenLocal` to create the deps in local maven
+- run `refapp` as an Android Mobile app
+
 ## Problems:
 - albeit `api()` is used, code is not embed
 - when starting `refapp`, the error below is shown
