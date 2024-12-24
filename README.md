@@ -17,7 +17,7 @@ Using multiple KMP library modules to add them as dependencies
     - uses `library:library-multi:1.0.0` dependency
 
 ## Steps to run `refapp`
-- call `./gradlew :library-multi:publishAndroidReleasePublicationToMavenLocal` to create the deps in local maven
+- call `./gradlew publishAndroidReleasePublicationToMavenLocal` to create the deps in local maven
 - run `refapp` as an Android Mobile app
 
 ## Problems:
